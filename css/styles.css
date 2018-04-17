@@ -1,0 +1,122 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+body {
+   height: 2000px;
+}
+
+.parallax {
+   position: relative;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#image1 {
+   background-image: url("../img/photo08.jpg");
+   min-height: 500px;
+}
+
+#hed {
+   text-align: center;
+   padding: 400px 0 0 0;
+   margin: 0;
+   font-size: 70px;
+   color: white;
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
+   text-shadow: 0px 0px 3px #000;
+}
+
+#subhead {
+   font-family: 'Lato', sans-serif;
+   color: white;
+   font-weight: 300;
+   font-size: 40px;
+   text-align: center;
+   text-shadow: 0px 0px 10px #000;
+   margin: 10px 0;
+   padding: 0 0 10px 0;
+}
+
+#content {
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 24px;
+}
+
+#content p {
+   max-width: 600px;
+   margin: 10px auto;
+}
+
+#storymeta {
+   max-width: 600px;
+   margin: 10px auto;
+}
+
+#mug {
+   float: left;
+   max-width: 100px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.byline {
+   font-size: 22px;
+   font-weight: bold;
+   color: #900;
+}
+
+.byline a {
+   color: #900;
+   text-decoration: none;
+}
+
+.byline a:hover {
+   text-decoration: underline;
+}
+
+.firstp {
+   clear: both;
+}
+
+.slideshow {
+   margin: 20px auto;
+   width: 100%;
+}
+
+.slideshow img {
+      width: 100%;
+}
+
+.prevnext {
+   text-align: center;
+}
+
+.prevnext a {
+   color: #900;
+   font-weight: bold;
+   margin: 0 10px;
+   cursor: pointer;
+}
+
+.prevnext a:hover {
+   text-decoration: underline;
+}
+
+
+
